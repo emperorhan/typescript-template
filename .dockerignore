@@ -1,0 +1,40 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# 0x directories
+*.0x/
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+generated/
+ormconfig.json
+
+.git
+.key
+src/
+docs/
+.github/
+.husky/
+.vscode/
+
+docker-compose.yml
+.env
+logs/
